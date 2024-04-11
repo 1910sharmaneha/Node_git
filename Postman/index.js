@@ -18,7 +18,7 @@ app.post("/register", (req, res) => {
   res.sendStatus(201);
 });
 
-app.put("/user/angela", (req, res) => {
+app.put("/user/neha", (req, res) => {
   res.sendStatus(200);
 });
 
@@ -34,3 +34,11 @@ app.delete("/user/angela", (req, res) => {
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
+
+
+
+// how to 
+// 1.npm install
+// 2.npm i -g nodemon
+// 3.npm i express
+// 4.nodemon index.js
